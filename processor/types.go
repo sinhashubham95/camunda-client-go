@@ -1,6 +1,6 @@
 package processor
 
-import "github.com/citilinkru/camunda-client-go/v3"
+import "github.com/sinhashubham95/camunda-client-go"
 
 // QueryComplete a query for Complete request
 type QueryComplete struct {

@@ -1,5 +1,5 @@
-module github.com/citilinkru/camunda-client-go/v3
+module github.com/sinhashubham95/camunda-client-go
 
-go 1.14
+go 1.16
 
 require github.com/stretchr/testify v1.7.0
