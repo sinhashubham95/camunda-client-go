@@ -44,7 +44,7 @@ type Options struct {
 	LongPollingTimeout time.Duration
 }
 
-// NewProcessor a create new instance Processor
+// NewProcessor is used to create new instance Processor
 func NewProcessor(client *camundaclientgo.Client, options *Options, logger func(err error)) *Processor {
 	rand.Seed(time.Now().UnixNano())
 	if options.WorkerId == "" {
